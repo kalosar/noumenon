@@ -1,2 +1,3 @@
-# xivapi-ts
-Typscript wrapper for XIV API
+# {xivapi}
+
+SDK for XIV API built in Typescript
