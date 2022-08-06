@@ -1,10 +1,12 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
+
 import type { Reporter, Test, AggregatedResult, TestResult, ReporterOnStartOptions, TestContext } from '@jest/reporters'
 
 /**
  * @see https://github.com/facebook/jest/blob/master/packages/jest-reporters/src/types.ts
  * @see https://jestjs.io/docs/en/configuration#reporters-arraymodulename--modulename-options
 */
+
 export default class GithubActionsReporter implements Reporter {
     onRunStart(results: AggregatedResult, options: ReporterOnStartOptions): void | Promise<void> {
         console.log('[MY REPORTER] onRunStart!')
