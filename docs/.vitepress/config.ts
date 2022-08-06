@@ -10,18 +10,14 @@ export default defineConfig({
     nav: nav(),
     sidebar: sidebar(),
     editLink: {
-      pattern: 'https://github.com/kalosar/xivapi-sdk/main/docs/:path',
+      pattern: 'https://github.com/kalosar/xivapi-sdk/tree/main/docs/:path',
       text: 'Edit this page on GitHub',
     },
   },
 });
 
 function nav() {
-  return [
-    { text: 'Guide', link: '/guide' },
-    { text: 'Configs', link: '/configs' },
-    { text: 'Changelog', link: 'https://github.com/...' },
-  ];
+  return [{ text: 'Guide', link: '/guide/introduction' }];
 }
 
 function sidebar() {

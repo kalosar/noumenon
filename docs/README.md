@@ -10,7 +10,7 @@ All of the documentation for XIVAPI-SDK is written with [VitePress](https://vite
 
 ### Setup
 
-Run command below to install all dependencies
+Install all dependencies
 
 ```sh
 yarn
@@ -24,7 +24,7 @@ Serve the documentation site in the local server.
 docs:dev
 ```
 
-VitePress will start a hot-reloading development server at http://localhost:3000.
+VitePress will start a hot-reloading development server at `http://localhost:3000`.
 
 ### Build
 
