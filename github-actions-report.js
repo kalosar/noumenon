@@ -1,4 +1,4 @@
-class GithubActionsReporter {
+export default class GithubActionsReporter {
     constructor(globalConfig, options) {
       this._globalConfig = globalConfig
       this._options = options
@@ -32,5 +32,3 @@ class GithubActionsReporter {
       })
     }
   }
-  
-  module.exports = GithubActionsReporter
