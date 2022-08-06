@@ -20,3 +20,9 @@ SDK for [XIVAPI](https://xivapi.com/) written in Typescript
   "editor.formatOnSave": true
 }
 ```
+
+## Doxumentation
+
+Live [preview](https://xivapi-sdk.netlify.app/) of the documentation site.
+
+See the [documentation](./docs) folder for more details.
