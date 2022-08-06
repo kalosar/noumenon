@@ -1,0 +1,9 @@
+{
+  "name": "xivapi-sdk",
+  "version": "0.1.0",
+  "description": "A sdk for xivapi written in typescript",
+  "main": "index.js",
+  "repository": "https://github.com/kalosar/xivapi-sdk.git",
+  "author": "kalosar",
+  "license": "MIT"
+}
