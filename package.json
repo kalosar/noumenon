@@ -7,8 +7,10 @@
   "author": "kalosar",
   "license": "MIT",
   "scripts": {
+    "clean": "rm -rf ./dist ./coverage",
+    "clean:all": "rm -rf ./dist ./node_modules ./coverage",
     "build": "tsc --build",
-    "clean": "tsc --build --clean",
+    "build:clean": "tsc --build --clean",
     "test": "vitest",
     "test:coverage": "vitest run --coverage"
   },
@@ -16,6 +18,7 @@
     "@types/jest": "^28.1.6",
     "@typescript-eslint/eslint-plugin": "^5.32.0",
     "@typescript-eslint/parser": "^5.32.0",
+    "c8": "^7.12.0",
     "eslint": "^8.21.0",
     "eslint-config-prettier": "^8.5.0",
     "jest": "^28.1.3",
