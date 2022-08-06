@@ -1,7 +1,7 @@
 module.exports = {
   preset: 'ts-jest',
   testEnvironment: "node",
-  reporters: ["default"]
+  reporters: ["default", "./src/github-actions-reporter.js"]
 };
 
 /*
