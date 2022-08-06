@@ -9,8 +9,8 @@
   "scripts": {
     "build": "tsc --build",
     "clean": "tsc --build --clean",
-    "test": "npx jest --runInBand --detectOpenHandles --colors --verbose --reporters=default",
-    "test:ci": "npx jest --ci --runInBand --silent --colors --coverage"
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage"
   },
   "devDependencies": {
     "@types/jest": "^28.1.6",
@@ -22,6 +22,7 @@
     "jest-junit": "^14.0.0",
     "prettier": "^2.7.1",
     "ts-jest": "^28.0.7",
-    "typescript": "^4.7.4"
+    "typescript": "^4.7.4",
+    "vitest": "^0.21.0"
   }
 }
