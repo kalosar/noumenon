@@ -7,16 +7,19 @@
   "author": "kalosar",
   "license": "MIT",
   "scripts": {
-    "test": "jest --watch",
-    "test:ci": "jest --ci --reporters='default' --reporters='./github-actions-reporter'"
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "test": "npx jest --runInBand --detectOpenHandles --colors --verbose --reporters=default",
+    "test:ci": "npx jest --ci --runInBand --silent --colors --coverage"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.32.0",
     "@typescript-eslint/parser": "^5.32.0",
     "eslint": "^8.21.0",
     "eslint-config-prettier": "^8.5.0",
-    "jest": "^28.1.3",
+    "jest-junit": "^14.0.0",
     "prettier": "^2.7.1",
+    "ts-jest": "^28.0.7",
     "typescript": "^4.7.4"
   }
 }
