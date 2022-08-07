@@ -14,10 +14,6 @@
       "strict": true,
       "allowSyntheticDefaultImports": true,
       "esModuleInterop": true,
-      "forceConsistentCasingInFileNames": true,
-
-      "types": [
-        "vitest/config"
-      ]
+      "forceConsistentCasingInFileNames": true
     }
   }
