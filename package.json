@@ -11,7 +11,7 @@
     "clean:all": "rm -rf ./dist ./node_modules ./coverage",
     "build": "tsc --build",
     "build:clean": "tsc --build --clean",
-    "test": "vitest",
+    "test:unit": "vitest",
     "test:coverage": "vitest run --coverage",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
