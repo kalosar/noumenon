@@ -9,9 +9,10 @@ First test version is yet to be released. When it is ready it will be released u
 
 ## Supported functionality
 
-| Status | Functionality | SDK function |
-|---|---|---|
-|:x:|Character| getCharact | 
+| Status | Functionality | SDK function  |
+|--------|---------------|---------------|
+|:x:     | Character     | getCharacter  |
+|:x:     | Character     | findCharacter | 
 
 ## Recomended VS Code setup
 
