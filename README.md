@@ -7,6 +7,12 @@ Live [preview](https://xivapi-sdk.netlify.app/) of the documentation site. See t
 ## THIS IS A WIP
 First test version is yet to be released. When it is ready it will be released under npm package name [nxiv](https://www.npmjs.com/package/nxiv)
 
+## Supported functionality
+
+| Status | Functionality | SDK function |
+|---|---|---|
+|:x:|Character| getCharact | 
+
 ## Recomended VS Code setup
 
 ### Extensions
