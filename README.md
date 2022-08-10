@@ -4,6 +4,9 @@ XIVAPI-SDK is a library for [XIVAPI](https://xivapi.com/) made with Typescript, 
 
 Live [preview](https://xivapi-sdk.netlify.app/) of the documentation site. See the [documentation](./docs) folder for more details.
 
+## THIS IS A WIP
+First test version is yet to be released. When it is ready it will be released under npm package name [nxiv](https://www.npmjs.com/package/nxiv)
+
 ## Recomended VS Code setup
 
 ### Extensions
